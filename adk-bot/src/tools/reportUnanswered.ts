@@ -1,6 +1,6 @@
 import { Autonomous, z, user, context } from '@botpress/runtime'
 import { UnansweredQuestionsTable } from '../tables/UnansweredQuestionsTable'
-import { classifyTopic } from '../utils/conversationLogs'
+import { classifyTopic } from '../utils/topicClassifier'
 
 const DEDUP_SIMILARITY = 0.85
 
